@@ -1,0 +1,18 @@
+genera en flask un chatboot al estilo de google gemini, que permita:
+
+1. usar la api de openai, gemini, groq o antropic, 
+2. poder elegir los modelos disponibles de cada proveedor para elegir con cual trabajar
+3. diferencia los mensajes enviados por el usuario de las respuestas
+4. muestra como respuestas los mensajes de error por api invalida o tiempo de respuesta exedido en el lado de las respuesta de los modelos, pero en rojo
+5. se debe poder hablar con el modelo que seleccionemos
+6. las repuestas del modelo se deben muestren mostrar formato markdown y que sean legibles por el usuario
+7. crea los estilos ccs necesarios para resultado muy profesional, responsivo y de gran calidad
+8. el tema debe ser tipo oscuro o dark
+9. comenta las líneas de código con lo necesario para entender que hace cada parte del código
+10. genera la estructura de archivos del proyecto al final para conocer donde colocar cada archivo
+11. agrega a .gitignore lo necesario por ejemplo las variables de entorno
+12. agregar un json donde guarde el historial de la conversacion para que el modelo tenga contexto
+13. el historial se debe poder borrar se debe guardar en un archivo plano
+14. debe mostrar el nombre del modelo a la izquierda una linea antes de la respuesta del modelo  
+15. usa los archivos .css, .js, .html y .py necesarios para el correcto funcionamiento del chatbot
+16. debajo de cada respuesta coloca un botón que permita copiar al porta papeles el contenido de la respuesta
